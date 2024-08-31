@@ -1,0 +1,44 @@
+$primary:#007cf8;
+$secondary: #939797;
+$dark:#1b2435;
+$line-heights:1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $dark;
+}
+
+a{
+    font-size:40px ;
+
+    .material-icons-outlined{
+        vertical-align: middle;
+    }
+}
+
+ul li a{
+    font-size: 25px;
+
+    &:hover{
+        font-weight: bold;
+    }
+}
+
+#demo{
+    &:hover{
+        color: white;
+    }
+}
+
+
+.product-icon{
+    $size:48px;
+    width:$size;
+    height:$size;
+}
